@@ -23,14 +23,14 @@ int main() {
 
   me.free_space( addr1 );
   me.print();
-  me.coalesce_forward();
-  me.print();
+  // me.coalesce_forward();
+  // me.print();
 
-  me.free_space( addr2 );
-  me.print();
+  // me.free_space( addr2 );
+  // me.print();
 
-  me.coalesce_forward();
-  me.print();
+  // me.coalesce_forward();
+  // me.print();
   
   
   delete RAM;
